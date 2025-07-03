@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fredoka', sans-serif;
+}
+
+body {
+  background-color: #f9f4f1;
+}
+
+.all-content {
+  background: #f7f5f2;
+  padding-top: 80px;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #b2744c;
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+#navbar {
+  background-color: white;
+  font-family: 'Fredoka', sans-serif;
+  padding: 15px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+#logo img {
+  border-radius: 0;
+  width: 50px;
+  margin-left: 20px;
+}
+
+.nav-item .nav-link {
+  color: black;
+  margin: 0 20px;
+  font-weight: normal;
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 8px 0;
+}
+
+.nav-item .nav-link:hover {
+  background: transparent;
+  color: #f030da;
+}
+
+.nav-item .nav-link.active {
+  color: #ec6b24;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-item:last-child .nav-link {
+  margin-left: 0;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-item:last-child .nav-link i {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.navbar-toggler span i {
+  color: black !important;
+}
+
+.arrow {
+  position: fixed;
+  border-radius: 50px;
+  height: 50px;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+}
+
+.text-orange {
+  color: #ef6a00;
+}
+
+.text-pink {
+  color: #ea4ca3;
+}
+
+.btn-orange {
+  background-color: #ef6a00;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-orange:hover {
+  background-color: #d85c00;
+  color: white;
+}
+
+.deliver-section {
+  background-color: #fff;
+  font-family: 'Fredoka', sans-serif;
+}
+
+.custom-btn {
+  z-index: 20;
+  background-color: #f36c00;
+  color: #fff;
+  font-weight: bold;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.custom-btn:hover {
+  background-color: #d65e00;
+  color: white;
+}
+
+.footer-section {
+  background-color: #f9f4f1;
+  color: #2c1e25;
+  font-family: 'Fredoka', sans-serif;
+  overflow: hidden;
+  position: relative;
+}
+
+.footer-section .text-orange {
+  color: #ef6a00;
+}
+
+.wave-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+  line-height: 0;
+}
+
+.footer-section .container {
+  position: relative;
+  z-index: 2;
+}

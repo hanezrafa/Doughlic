@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fredoka', sans-serif;
+}
+
+body {
+  background-color: #f9f4f1;
+  min-height: 100vh;
+}
+
+.all-content {
+  background: #f7f5f2;
+  padding-top: 80px;
+  min-height: 100vh;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #b2744c;
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+#navbar {
+  background-color: white;
+  font-family: 'Fredoka', sans-serif;
+  padding: 15px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+#logo img {
+  width: 50px;
+  margin-left: 20px;
+}
+
+.nav-item .nav-link {
+  color: black;
+  margin: 0 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 8px 0;
+  transition: 0.3s;
+}
+
+.nav-item .nav-link:hover {
+  color: #f030da;
+}
+
+.nav-item .nav-link.active {
+  color: #ec6b24;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-item:last-child .nav-link {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-item:last-child .nav-link i {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.navbar-toggler span i {
+  color: black !important;
+}
+
+.arrow {
+  position: fixed;
+  border-radius: 50px;
+  height: 50px;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+}
+
+.hero h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.hero p {
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.highlight {
+  color: #ef6a00;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 1.2rem;
+  }
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.section-title span {
+  color: #ef6a00;
+}
+
+.app-features {
+  margin-top: 40px;
+}
+
+.app-image {
+  max-width: 100%;
+}
+
+.right-col {
+  text-align: center;
+}
+
+.install-button {
+  background-color: #ef6a00;
+  border: none !important;
+  outline: none !important;
+  padding: 12px 36px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 30px;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.install-button:hover {
+  background-color: #d85d00;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.install-button:focus {
+  outline: none !important;
+  box-shadow: 0 0 0 3px rgba(239, 106, 0, 0.3);
+}
+
+.install-button:active {
+  transform: translateY(0);
+}
